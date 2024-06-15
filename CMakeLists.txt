@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.28)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(test main.cpp)
+add_executable(UniqueCharacter "Section 4 Data Structures/UniqueCharacter.cpp")
+add_executable(KthLargest "Section 4 Data Structures/findKthLargest.cpp")
+add_executable(OneInteger "Section 4 Data Structures/OneInteger.cpp")
+add_executable(MaximumScore "Section 4 Data Structures/MaximumScore.cpp")
+add_executable(FindKClosestElements "Section 4 Data Structures/FindKClosestElements.cpp")
+add_executable(PowerOf4 "Section 5 Bit Manipulation/PowerOf4.cpp")
+add_executable(DecodeXORedArray "Section 5 Bit Manipulation/DecodeXORedArray.cpp")
+add_executable(SortIntegersBits "Section 5 Bit Manipulation/SortIntegersBits.cpp")
+add_executable(HammingDistance "Section 5 Bit Manipulation/HammingDistance.cpp")
+add_executable(MaximumScore2 "Section 6 Bitmanipulation problems/MaximumScore.cpp")
+add_executable(BitRangeofNumbers "Section 6 Bitmanipulation problems/BitRangeofNumbers.cpp")
+add_executable(testingGround testing.c)
