@@ -7,7 +7,7 @@ int rangeBitwiseAnd(int left, int right) {
             return left;
         }
         else{
-            int leftBit = 
+            int leftBit = 5;
         }
     }
 }
